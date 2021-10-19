@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 
 const Booking = () => {
@@ -18,13 +19,16 @@ const Booking = () => {
 
 
     return (
-        <div className="mt-5 py-5 ">
-            <div >
-                <h1 className="mt-5">This is Service {serviceId}</h1>
+        <div className="mt-5 py-5 service-container ">
+            <div className="card service ms-5 px-5">
+                <h1 className="mt-5 ">This is Service {serviceId}</h1>
                 <img src={singleService?.img} alt="" />
-                <h5>{singleService?.name}</h5>
-                <h6>{singleService?.price}</h6>
-                <p>{singleService?.description}</p>
+                <h5>Name: {singleService?.name}</h5>
+                <h6> Price: {singleService?.price}</h6>
+                <strong> description: {singleService?.description}</strong>
+                <br />
+                <Button>Details</Button>
+                <br />
 
 
             </div>

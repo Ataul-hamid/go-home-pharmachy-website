@@ -4,7 +4,7 @@ import { Button, Col, Row } from 'react-bootstrap';
 const Footer = () => {
     return (
         <div className="bg-dark text-success">
-            <Row>
+            <Row >
                 <Col>
                     <h5>Company Name</h5>
                     <h5 className="text-danger mt-5">GO Home Pharmacy</h5>
