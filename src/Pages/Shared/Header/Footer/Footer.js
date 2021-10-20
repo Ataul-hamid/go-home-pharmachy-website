@@ -3,7 +3,7 @@ import { Button, Col, Row } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className="bg-dark text-success">
+        <div className="bg-dark text-light">
             <Row >
                 <Col>
                     <h5>Company Name</h5>
@@ -29,6 +29,7 @@ const Footer = () => {
                     <h5>Contact US</h5>
                     <h5>Phone: 0128937289</h5>
                     <h6>info@gmail.com</h6>
+                    <a href="https://www.facebook.com/GoHomePharmacy"> <i class="fab fa-facebook"></i></a>
                 </Col>
             </Row>
         </div>

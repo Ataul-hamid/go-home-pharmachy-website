@@ -8,22 +8,22 @@ const Offer = () => {
             <h5>Health Care Service</h5>
 
             <div>
-                <div className="row service-container service">
-                    <div className="col card ms-3 me-3 px-3 py-3">
+                <div className="row service-container ">
+                    <div className="col card ms-3 me-3 px-3 py-3 service">
                         <h6>EMERGENCY CASE</h6>
                         <div>--------------------</div>
                         <p>In any kind of emergency we are ready to help you</p>
                         <Button>Read More</Button>
 
                     </div>
-                    <div className="col card ms-3 me-3 px-3 py-3">
+                    <div className="col card ms-3 me-3 px-3 py-3 service">
                         <h6>24 Hours Service</h6>
                         <div>----------------------</div>
                         <p>24 hours we ready for you</p>
                         <Button>Read More</Button>
 
                     </div>
-                    <div className="col card ms-3 me-3 px-3 py-3">
+                    <div className="col card ms-3 me-3 px-3 py-3 service">
                         <h6>Opening Hours</h6>
                         <div>-------------------</div>
                         <p>24 hours open</p>
